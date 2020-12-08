@@ -1,0 +1,8 @@
+package.json
+pnpm-lock.yaml
+dist
+node_modules
+.pnpm-store
+out-tsc
+.eslintrc.js
+pnpmfile.js
