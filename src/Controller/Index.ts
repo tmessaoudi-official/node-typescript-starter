@@ -1,6 +1,6 @@
-import express, { Application } from 'express';
+import express, {Application, Router} from 'express';
 
-class App {
+class Index {
 	public express: Application;
 
 	constructor() {
@@ -9,14 +9,14 @@ class App {
 	}
 
 	private mountRoutes(): void {
-		const router = express.Router();
+		const router: Router = express.Router();
 		router.get(`/`, (req, res) => {
 			res.json({
-				message: `Hello World! yezzz`
+				message: `Hello World! yeziyzouyezuu`
 			});
 		});
 		this.express.use(`/`, router);
 	}
 }
 
-export default new App().express;
+export default new Index().express;

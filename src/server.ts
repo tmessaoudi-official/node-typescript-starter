@@ -1,10 +1,10 @@
-import app from './App';
+import index from './Controller/Index';
 
 // @ts-ignore : it works @todo .env file and import it
 const port: number = process.env.PORT | 8080;
 
 // @ts-ignore : it works i still don't know wht it shows a warning
-app.listen(port, (err) => {
+index.listen(port, (err) => {
 	if (err) {
 		return console.log(err);
 	}

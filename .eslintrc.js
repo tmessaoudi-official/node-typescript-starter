@@ -19,6 +19,7 @@ module.exports = {
 		ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
 		sourceType: "commonjs", // Allows for the use of imports
 		project: 'tsconfig.json',
+		createDefaultProgram: true,
 		ecmaFeatures: {
 			impliedStrict: true
 		}
