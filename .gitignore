@@ -1,4 +1,6 @@
-node_modules
+/node_modules
+/.pnpm-store
+/.pnpm
 dist
 npm-debug.log
 .idea
